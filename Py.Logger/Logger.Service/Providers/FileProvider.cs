@@ -11,7 +11,7 @@ namespace Logger.Service.Providers
 
         public FileProvider()
         {
-            FilePath = ConfigurationManager.AppSettings["logPath"];
+            FilePath = ConfigurationManager.AppSettings["LogFilePath"];
             if (FilePath == null)
                 FilePath = string.Format("log-{0}.log",DateTime.UtcNow.ToString(("MM-dd-yyyy")));
         }

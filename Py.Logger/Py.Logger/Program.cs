@@ -9,7 +9,7 @@ namespace Py.Logger.console
         public static void Main(string[] args)
         {
             ILogHandler logHandler = new LogHandler();
-            logHandler.Initialize(ProviderType.Console );
+            logHandler.Initialize(ProviderType.File );
             logHandler.LogMessage("Message text");
             logHandler.LogWarning("Warning text");
             logHandler.LogError("Error text");
