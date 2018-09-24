@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{732E3A8C-3BB9-43E9-A4C7-68DCC2652AEC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Py.Logger/Program.cs">
+    <Files>
+      <File FileName="Py.Logger/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Py.Logger" expanded="True">
+            <Node name="Py.Logger" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="Py.Logger" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Py.Logger PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
