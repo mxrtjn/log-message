@@ -1,7 +1,9 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Py.Logger", "Py.Logger\Py.Logger.csproj", "{732E3A8C-3BB9-43E9-A4C7-68DCC2652AEC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Py.Logger.console", "Py.Logger\Py.Logger.Console.csproj", "{732E3A8C-3BB9-43E9-A4C7-68DCC2652AEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger.Service", "Logger.Service\Logger.Service.csproj", "{3F10F95A-B07A-4781-A97D-38D878382FD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +15,9 @@ Global
 		{732E3A8C-3BB9-43E9-A4C7-68DCC2652AEC}.Debug|x86.Build.0 = Debug|x86
 		{732E3A8C-3BB9-43E9-A4C7-68DCC2652AEC}.Release|x86.ActiveCfg = Release|x86
 		{732E3A8C-3BB9-43E9-A4C7-68DCC2652AEC}.Release|x86.Build.0 = Release|x86
+		{3F10F95A-B07A-4781-A97D-38D878382FD3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3F10F95A-B07A-4781-A97D-38D878382FD3}.Debug|x86.Build.0 = Debug|Any CPU
+		{3F10F95A-B07A-4781-A97D-38D878382FD3}.Release|x86.ActiveCfg = Release|Any CPU
+		{3F10F95A-B07A-4781-A97D-38D878382FD3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

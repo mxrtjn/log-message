@@ -1,12 +1,19 @@
 ﻿using System;
+using Logger.Service;
+using Logger.Service.Enums;
 
-namespace Py.Logger
+namespace Py.Logger.console
 {
     class MainClass
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ILogHandler logHandler = new LogHandler();
+            logHandler.Initialize(ProviderType.Console );
+            logHandler.LogMessage("Message text");
+            logHandler.LogWarning("Warning text");
+            logHandler.LogError("Error text");
+            Console.ReadKey();
         }
     }
 }
