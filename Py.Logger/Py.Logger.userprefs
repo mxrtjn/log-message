@@ -1,35 +1,37 @@
 ﻿<Properties StartupConfiguration="{732E3A8C-3BB9-43E9-A4C7-68DCC2652AEC}|Default">
   <MonoDevelop.Ide.ItemProperties.Py.Logger.console PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Logger.UnitTest/MyClass.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Py.Logger/Program.cs">
     <Files>
-      <File FileName="Py.Logger/Program.cs" Line="5" Column="18" />
-      <File FileName="Py.Logger/Properties/AssemblyInfo.cs" Line="7" Column="38" />
-      <File FileName="Logger.Service/ILogHandler.cs" Line="9" Column="24" />
-      <File FileName="Logger.Service/Entities/LogEntity.cs" Line="21" Column="56" />
-      <File FileName="Logger.Service/Enums/LogType.cs" Line="8" Column="15" />
-      <File FileName="Logger.Service/Enums/ProviderType.cs" Line="10" Column="6" />
-      <File FileName="Logger.Service/Providers/ConsoleProvider.cs" Line="7" Column="47" />
-      <File FileName="Logger.Service/Providers/ILogProvider.cs" Line="8" Column="50" />
-      <File FileName="Logger.Service/Providers/FileProvider.cs" Line="20" Column="10" />
+      <File FileName="Logger.Service/Providers/FileProvider.cs" Line="14" Column="69" />
       <File FileName="Logger.Service/Providers/DatabaseProvider.cs" Line="24" Column="73" />
       <File FileName="Logger.Service/LogHandler.cs" Line="14" Column="10" />
-      <File FileName="Py.Logger/app.config" Line="9" Column="18" />
-      <File FileName="Logger.UnitTest/MyClass.cs" Line="1" Column="1" />
+      <File FileName="Py.Logger/app.config" Line="11" Column="19" />
+      <File FileName="Logger.UnitTest/LogTest.cs" Line="14" Column="57" />
+      <File FileName="Py.Logger/Program.cs" Line="12" Column="49" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Py.Logger" expanded="True">
-            <Node name="Logger.UnitTest" expanded="True">
-              <Node name="MyClass.cs" selected="True" />
+            <Node name="Logger.Service" expanded="True">
+              <Node name="Entities" expanded="True" />
+              <Node name="Enums" expanded="True" />
+              <Node name="Providers" expanded="True" />
             </Node>
+            <Node name="Logger.UnitTest" expanded="True" />
             <Node name="Py.Logger.console" expanded="True">
               <Node name="References" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
       <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="Py.Logger" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
           <Node name="Py.Logger" expanded="True" selected="True" />
         </State>
