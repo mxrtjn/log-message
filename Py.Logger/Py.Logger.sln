@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Py.Logger.console", "Py.Log
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger.Service", "Logger.Service\Logger.Service.csproj", "{3F10F95A-B07A-4781-A97D-38D878382FD3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger.UnitTest", "Logger.UnitTest\Logger.UnitTest.csproj", "{9370A63B-B7A4-4345-9DC3-2DAAFBF04E5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,5 +21,9 @@ Global
 		{3F10F95A-B07A-4781-A97D-38D878382FD3}.Debug|x86.Build.0 = Debug|Any CPU
 		{3F10F95A-B07A-4781-A97D-38D878382FD3}.Release|x86.ActiveCfg = Release|Any CPU
 		{3F10F95A-B07A-4781-A97D-38D878382FD3}.Release|x86.Build.0 = Release|Any CPU
+		{9370A63B-B7A4-4345-9DC3-2DAAFBF04E5E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9370A63B-B7A4-4345-9DC3-2DAAFBF04E5E}.Debug|x86.Build.0 = Debug|Any CPU
+		{9370A63B-B7A4-4345-9DC3-2DAAFBF04E5E}.Release|x86.ActiveCfg = Release|Any CPU
+		{9370A63B-B7A4-4345-9DC3-2DAAFBF04E5E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

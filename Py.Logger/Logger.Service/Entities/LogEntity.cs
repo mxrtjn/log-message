@@ -18,7 +18,7 @@ namespace Logger.Service.Entities
         }
 
 
-        internal LogEntity(LogType type, string message)
+        public LogEntity(LogType type, string message)
         {
             Message = message;
             Type = type;
